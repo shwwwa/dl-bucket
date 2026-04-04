@@ -1,0 +1,27 @@
+{
+  "version": "0.6.0-alpha.2",
+  "description": "Dying Light Tweaks Manager",
+  "homepage": "https://github.com/shwwwa/dltweaks",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/shwwwa/dltweaks/releases/download/v0.6.0-alpha.2/dltweaks.exe",
+      "hash": "FB3FA29888F4ED3F09CCD6CF66BB759A729F2DF76BCD6B4F5B907FC77BB7F835"
+    }
+  },
+  "bin": "dltweaks.exe",
+  "checkver": {
+    "url": "https://github.com/shwwwa/dltweaks/releases/latest",
+    "regex": "tag/v([\\d.]+(-alpha\\.[\\d]+)?)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/shwwwa/dltweaks/releases/download/v$version/dltweaks.exe"
+      }
+    }
+  },
+  "notes": [
+    "This is a GUI app"
+  ]
+}
