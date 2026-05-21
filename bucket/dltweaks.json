@@ -5,8 +5,8 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/shwwwa/dltweaks/releases/download/v0.6.0-alpha.2/dltweaks.exe",
-      "hash": "FB3FA29888F4ED3F09CCD6CF66BB759A729F2DF76BCD6B4F5B907FC77BB7F835"
+      "url": "https://github.com/shwwwa/dltweaks/releases/download/v0.7.0-alpha.1/dltweaks.exe",
+      "hash": "55E79B8915DC5F8A9073A9DA86081CCF92DFDA867076A43A8CB97B49637CF5C9"
     }
   },
   "bin": "dltweaks.exe",
